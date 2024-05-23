@@ -1,0 +1,110 @@
+.main-con{
+    background-color: #ADD8E6;
+    display: flex;
+    padding:7px;
+    justify-content: space-between;
+    width: 100vw;
+}
+.main-head{
+    color: #013220;
+    font-family: "Roboto";
+    padding:5px;
+
+}
+.main-para{
+    color:#000;
+    font-family: "Roboto";
+    padding:5px;
+}
+.options-con{
+    background-color: #fff;
+    display: flex;
+    margin:7px;
+    padding:9px;
+    font-family: "Roboto";
+    border-radius: 7px;
+}
+.btns-con{
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    height:40px;
+    width:50px;
+    padding:5px;
+}
+.Brochure-btn{
+    background-color: #00008B;
+    border: 0px;
+    border-radius: 6px;
+    font-family: "Roboto";
+    color:#fff;
+    padding:5px;
+    margin:5px;
+}
+.silver-btn{
+    background-color: #FF8080;
+    border: 0px;
+    border-radius: 6px;
+    font-family: "Roboto";
+    color:#fff;
+    padding:5px;
+    margin:5px;
+}
+.Callback-Con{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 7px;
+    margin: 5px;
+    padding:10px;
+    font-family: "Roboto";
+
+}
+.con-1{
+    padding:8px;
+}
+.Callback-head{
+    color: #013220;
+    padding:5px;
+    font-size:22px;
+}
+.input-box{
+    margin: 5px;
+    border: 1px solid #000;
+    font-family: "Roboto";
+    padding:5px;
+}
+.call-btn{
+    margin: 5px;
+    border-radius: 5px;
+    font-family: "Roboto";
+    padding:5px;
+    background-color: #00008B;
+    color: #fff;
+    border: 0px;
+}
+
+@media (max-width: 480px) {
+    .main-con{
+        background-color: #ADD8E6;
+        display: flex;
+        padding:7px;
+        flex-wrap: wrap;
+        width: 100vw;
+        justify-content: center;
+    }
+    .con-1{
+        flex-wrap: wrap;
+    }
+    .options-con{
+        background-color: #fff;
+        display: flex;
+        margin:5px;
+        padding:5px;
+        font-family: "Roboto";
+        border-radius: 7px;
+    }
+}

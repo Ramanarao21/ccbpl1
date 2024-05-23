@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Acca from './components/Acca';
+import WhyChooseUs from './components/WhyChooseUs';
+import Eligibility from './components/Eligibility';
+import LearnInAcca from './components/LearnInAcca';
+import Placements from './components/Placements';
+import Kickoff from './components/Kickoff';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Acca/>
+      <WhyChooseUs/>
+      <Eligibility/>
+      <LearnInAcca/>
+      <Placements/>
+      < Kickoff/>
+        
     </div>
   );
 }

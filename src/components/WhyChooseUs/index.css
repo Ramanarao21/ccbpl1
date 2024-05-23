@@ -1,0 +1,64 @@
+.con-cls{
+    background-color: #fff;
+}
+.chooseUs{
+    font-family: "Roboto";
+    color: #013220;
+    padding: 5px;
+}
+.hr{
+    width:10%;
+    font-size: 15px;
+    border-color: #00008B;
+
+}
+.choose-hr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ChooseUs-Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ADD8E6;
+    padding: 5px;
+    border-radius: 7px;
+    margin: 5px;
+
+}
+.ChooseUs-Cards-Con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:8px;
+}
+.choose-icons{
+    height:60px;
+    width:80px;
+}
+.choose-card-head{
+    color:#00008B ;
+    font-weight: 600;
+    font-family: "Roboto";
+    padding: 5px;
+    font-size:20px;
+}
+.choose-card-para{
+    color:#00008B ;
+    font-family: "Roboto";
+    padding: 5px;
+}
+
+@media (max-width: 480px) {
+    .ChooseUs-Cards-Con{
+        flex-wrap: wrap;
+    }
+    .con-cls{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

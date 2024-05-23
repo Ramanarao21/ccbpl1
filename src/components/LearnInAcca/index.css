@@ -1,0 +1,68 @@
+.container-cls{
+    background-color: #fff;
+}
+.Learnings{
+    font-family: "Roboto";
+    color: #013220;
+    padding: 5px;
+}
+.hr{
+    width:10%;
+    font-size: 15px;
+    border-color: #00008B;
+
+}
+.Learnings-hr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Learnings-Acca-Con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:8px;
+}
+
+.Learnings-Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ADD8E6;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+
+.Learnings-head{
+    background-color:#00008B ;
+    font-weight: 600;
+    font-family: "Roboto";
+    font-size:20px;
+    color: #fff;
+    width: 100%;
+}
+
+.list-items{
+    padding:10px;
+    list-style-type: none;
+}
+
+@media (max-width: 480px) {
+    .Learnings-Acca-Con{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding:8px;
+        flex-wrap: wrap;
+    }
+    .container-cls{
+       
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+    }
+}

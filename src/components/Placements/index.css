@@ -1,0 +1,40 @@
+.Placement-con{
+    background-color: #FFDBE9;
+    font-family: "Roboto";
+    padding:5px;
+}
+.Place-hr-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.placed{
+    font-family: "Roboto";
+    color: #013220;
+    padding: 5px;
+    align-self: center;
+}
+.place-hr{
+    width:10%;
+    font-size: 15px;
+    color: #013220;
+}
+.placement-points{
+    color: #00008B;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+
+}
+
+@media (min-width:480px){
+    .Placement-con{
+        background-color: #FFDBE9;
+        font-family: "Roboto";
+        padding:5px;
+        flex-wrap: wrap;
+    }
+}

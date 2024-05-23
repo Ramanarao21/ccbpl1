@@ -1,0 +1,48 @@
+.Eligibility-con{
+    background-color: #ADD8E6;
+    color: #fff;
+    font-family: "Roboto";
+}
+.elig-hr-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.elig{
+    font-family: "Roboto";
+    color: #013220;
+    padding: 5px;
+    align-self: center;
+}
+.elg-hr{
+    width:10%;
+    font-size: 15px;
+    color: #013220;
+}
+.eligible-points{
+    color: #00008B;
+    font-family: "Roboto";
+    
+}
+.tick-list {
+    list-style-type: none;
+    padding-left: 0; 
+    padding: 10px;
+
+}
+
+.tick-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; 
+}
+
+@media (max-width: 480px) {
+    .Eligibility-con{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
